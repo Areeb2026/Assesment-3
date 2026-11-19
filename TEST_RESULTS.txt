@@ -1,0 +1,58 @@
+test_T07_add_gets_unique_id_and_types (test_expenses.TestCRUD.test_T07_add_gets_unique_id_and_types) ... ok
+test_T08_id_not_reused_after_delete (test_expenses.TestCRUD.test_T08_id_not_reused_after_delete) ... ok
+test_T09_search_case_insensitive_multiple (test_expenses.TestCRUD.test_T09_search_case_insensitive_multiple) ... ok
+test_T10_update_field (test_expenses.TestCRUD.test_T10_update_field) ... ok
+test_T11_delete (test_expenses.TestCRUD.test_T11_delete) ... ok
+test_T20_invalid_menu_then_exit (test_expenses.TestEndToEnd.test_T20_invalid_menu_then_exit) ... ok
+test_T21_empty_view_message_and_summary (test_expenses.TestEndToEnd.test_T21_empty_view_message_and_summary) ... ok
+test_T22_add_persists_after_exit (test_expenses.TestEndToEnd.test_T22_add_persists_after_exit) ... ok
+test_T23_delete_requires_confirmation (test_expenses.TestEndToEnd.test_T23_delete_requires_confirmation) ... ok
+test_T24_full_run_on_sample_data (test_expenses.TestEndToEnd.test_T24_full_run_on_sample_data) ... ok
+test_T25_eof_does_not_crash (test_expenses.TestEndToEnd.test_T25_eof_does_not_crash) ... ok
+test_T17_missing_file_created (test_expenses.TestFiles.test_T17_missing_file_created) ... No data file found. Created new file: /tmp/tmpw6hi9eki/sub/new.csv
+ok
+test_T18_save_load_round_trip (test_expenses.TestFiles.test_T18_save_load_round_trip) ... ok
+test_T19_bad_rows_skipped (test_expenses.TestFiles.test_T19_bad_rows_skipped) ...   Warning: skipped invalid row at line 3.
+  Warning: skipped invalid row at line 4.
+  Warning: skipped invalid row at line 5.
+  Warning: skipped invalid row at line 6.
+ok
+test_T12_recursive_sum (test_expenses.TestReports.test_T12_recursive_sum) ... ok
+test_T13_monthly_total (test_expenses.TestReports.test_T13_monthly_total) ... ok
+test_T14_filters (test_expenses.TestReports.test_T14_filters) ... ok
+test_T15_summary_values (test_expenses.TestReports.test_T15_summary_values) ... ok
+test_T16_summary_empty (test_expenses.TestReports.test_T16_summary_empty) ... ok
+test_T01_empty_text_reprompts (test_expenses.TestValidation.test_T01_empty_text_reprompts) ...   Input cannot be empty. Please try again.
+  Input cannot be empty. Please try again.
+ok
+test_T02_amount_rejects_bad_values (test_expenses.TestValidation.test_T02_amount_rejects_bad_values) ...   Amount must be a number greater than 0 (e.g. 12.50).
+  Amount must be a number greater than 0 (e.g. 12.50).
+  Amount must be a number greater than 0 (e.g. 12.50).
+  Amount must be a number greater than 0 (e.g. 12.50).
+  Amount must be a number greater than 0 (e.g. 12.50).
+  Amount must be a number greater than 0 (e.g. 12.50).
+  Amount must be a number greater than 0 (e.g. 12.50).
+ok
+test_T03_date_rejects_bad_dates (test_expenses.TestValidation.test_T03_date_rejects_bad_dates) ...   Invalid date. Use YYYY-MM-DD (e.g. 2026-03-15).
+  Invalid date. Use YYYY-MM-DD (e.g. 2026-03-15).
+  Invalid date. Use YYYY-MM-DD (e.g. 2026-03-15).
+  Invalid date. Use YYYY-MM-DD (e.g. 2026-03-15).
+  Invalid date. Use YYYY-MM-DD (e.g. 2026-03-15).
+ok
+test_T04_month_validation (test_expenses.TestValidation.test_T04_month_validation) ...   Invalid month. Use YYYY-MM (e.g. 2026-03).
+  Invalid month. Use YYYY-MM (e.g. 2026-03).
+ok
+test_T05_unknown_and_non_numeric_id (test_expenses.TestValidation.test_T05_unknown_and_non_numeric_id) ...   ID must be a positive whole number.
+  ID must be a positive whole number.
+  No expense with ID 999 exists.
+ok
+test_T06_range_and_confirm (test_expenses.TestValidation.test_T06_range_and_confirm) ...   Please enter a whole number between 1 and 4.
+  Number out of range. Choose between 1 and 4.
+  Please type Y or N.
+  Please type Y or N.
+ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.164s
+
+OK

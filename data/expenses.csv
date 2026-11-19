@@ -1,0 +1,13 @@
+id,date,category,description,amount
+1,2026-01-05,Food,Weekly groceries,85.40
+2,2026-01-12,Transport,Monthly tram pass,152.00
+3,2026-01-20,Entertainment,Movie tickets,36.00
+4,2026-02-02,Rent,February rent share,650.00
+5,2026-02-09,Food,Dinner with friends,64.75
+6,2026-02-14,Utilities,Electricity bill,92.30
+7,2026-02-21,Education,Python textbook,48.99
+8,2026-03-03,Food,Groceries and cleaning supplies,97.15
+9,2026-03-10,Transport,Taxi to airport,58.50
+10,2026-03-18,Health,Pharmacy purchase,23.80
+11,2026-03-25,Entertainment,Concert ticket,120.00
+12,2026-03-28,Utilities,Internet bill,69.90
